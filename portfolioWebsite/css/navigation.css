@@ -1,0 +1,35 @@
+li{
+    display: inline;
+    margin: 15px;
+    
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+nav{
+    float : right;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    display: inline-block;
+    padding-top: 15px;
+}
+nav a:hover{
+    color: rgb(54, 65, 126);
+}
+nav a:active{
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: rgb(236, 236, 236);
+    height: 50px;
+}
+
+

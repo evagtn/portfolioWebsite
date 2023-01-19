@@ -1,0 +1,8 @@
+main title page
+
+nav: 	- about me
+	- projects/work/things i did?/"portfolio" 	- blender (my room, monster and man, brunnen?)
+							- games (snake, tereco, steal mona)
+							- coding (countdown, geltingerWebsite, ??vllt rechner oder umrechnungen)	
+							- art stuff/design (buildingBlocks player and level design, küken design, kp)
+	- contact					

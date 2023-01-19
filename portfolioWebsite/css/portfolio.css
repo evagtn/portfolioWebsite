@@ -1,0 +1,10 @@
+#projectImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    margin-bottom: 150px;
+
+}
