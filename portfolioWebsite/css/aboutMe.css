@@ -11,6 +11,12 @@
     margin-bottom: 100px;
 }
 
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 #media{
     display: flex;
     align-items: center;

@@ -1,8 +1,8 @@
 {
 	"folders": [
 		{
-			"name": "webdev",
-			"path": "../webdev"
+			"name": "toDoList",
+			"path": "../../toDoList/toDoList"
 		}
 	],
 	"settings": {}
