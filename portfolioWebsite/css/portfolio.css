@@ -8,3 +8,134 @@
     margin-bottom: 150px;
 
 }
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+   
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-clip: padding-box;
+    margin-bottom: 100px;
+   
+    background-color: rgba(97, 121, 255, 0.281); 
+    
+}
+
+figcaption{
+    text-align: center;
+    padding-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.toDoSlides{
+    display: none;
+   object-fit: cover;
+    image-rendering: optimizeQuality;
+}
+
+#divToDoSlides{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+
+}
+
+.buttonLeft{
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    cursor: pointer;
+    border: none;
+    color: rgba(97, 121, 255, 0.281);
+    font-size: xx-large;
+}
+
+.buttonRight{
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    cursor: pointer;
+    border: none;
+    color: rgba(97, 121, 255, 0.281);
+    font-size: xx-large;
+}
+.buttonLeft:hover{
+    color: rgb(54, 65, 126);
+}
+.buttonRight:hover{
+    color: rgb(54, 65, 126);
+}
+.buttonLeft:active{
+    font-weight: bold;
+}
+.buttonRight:active{
+    font-weight: bold;
+}
+#toDoListParagraph{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+/*
+.terecoSlides{
+    display: none;
+   object-fit: cover;
+    image-rendering: optimizeQuality;
+}
+
+#divTerecoSlides{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+
+}
+
+#TerecoParagraph{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+
+.buttonLeftTereco{
+    position: absolute;
+    top: 130%;
+    left: 7%;
+    cursor: pointer;
+    border: none;
+    color: rgba(97, 121, 255, 0.281);
+    font-size: xx-large;
+}
+
+.buttonRightTereco{
+    position: absolute;
+    top: 130%;
+    left: 45%;
+    cursor: pointer;
+    border: none;
+    color: rgba(97, 121, 255, 0.281);
+    font-size: xx-large;
+}
+.buttonLeftTerco:hover{
+    color: rgb(54, 65, 126);
+}
+.buttonRightTereco:hover{
+    color: rgb(54, 65, 126);
+}
+.buttonLeftTereco:active{
+    font-weight: bold;
+}
+.buttonRightTereco:active{
+    font-weight: bold;
+} */

@@ -14,18 +14,40 @@
 #icons{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+   
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-clip: padding-box;
+    margin-bottom: 100px;
+   
+    background-color: rgba(97, 121, 255, 0.281); 
+    
+}
+
+figcaption{
+    text-align: center;
+    padding-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
 }
 
 #media{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 200px;
-    margin-right: 200px;
+    background-clip: padding-box;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     
     margin-bottom: 150px;
-
+    
+    background-color: rgb(236,236,236);
+    /*  background-color: rgb(54, 65, 126); */
 }
 
 h1{

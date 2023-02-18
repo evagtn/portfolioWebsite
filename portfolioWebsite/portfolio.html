@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/navigation.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css.portfolio.css">
+        <link rel="stylesheet" href="css/portfolio.css">
+        
     </head>
     <body>
         <div class="navbar">
@@ -17,12 +18,66 @@
                 </ul>
             </nav>
         </div>
-
-        <div id="projectImages"> 
-            <img src="media\man.PNG" width="150" height="150">
-            <img src="media\manFarbe.PNG" width="150" height="150">
-            <img src="media\monster.PNG" width="150" height="150">
-            <img src="media\monsterFarbe.PNG" width="150" height="150">
+        <div id="skills">
+            <p></p>
         </div>
+        <div id="icons">
+            <figure>
+                <img src="media/html5.svg" width="30" height="30" title="html">
+                <figcaption>HTML</figcaption>
+            </figure>
+            <figure>
+                <img src="media/css3.svg" width="30" height="30" >
+                <figcaption>CSS</figcaption>
+            </figure>
+            <figure>
+                <img src="media/javascript.svg" width="30" height="30" >
+                <figcaption> JavaScript</figcaption>
+            </figure>
+            <figure>
+                <img src="media/figma.svg" width="30" height="30" >
+                <figcaption>Figma</figcaption>
+            </figure>
+            <figure>
+                <img src="media/github.svg" width="30" height="30" >
+                <figcaption>GitHub</figcaption>
+            </figure>
+            <figure>
+                <img src="media/godotengine.svg" width="30" height="30" >
+                <figcaption>Godot</figcaption>
+            </figure>
+        </div>
+
+
+        <div id="divToDoSlides">
+            
+            <img class="toDoSlides" src="media/toDo.PNG" width="500" height="400" >
+            <img class="toDoSlides" src="media/toDoHtml.PNG" width="500" height="400">
+            <img class="toDoSlides" src="media/toDoCss.PNG" width="500" height="400">
+            <img class="toDoSlides" src="media/toDoJS.PNG" width="500" height="400">
+            <button class="buttonLeft" onclick="plusDivs(-1)">&#10094</button>
+            <button class="buttonRight" onclick="plusDivs(+1)">&#10095</button>
+
+           <p id="toDoListParagraph"> This is a simple To Do List where you can add your To Dos, <br> cross them by clicking once on them <br> and deleting them by double clicking. <br> <br>  Code : https://github.com/evagtn/toDoList.git </p>
+        </div>
+<!--
+        <div id="divTerecoSlides">
+
+            
+
+            <img  class="terecoSlides" src="media/terecoTitle.PNG" width="500" height="400">
+            <img class="terecoSlides" src="media/tereco2.PNG" width="500" height="400">
+            <img class="terecoSlides" src="media/tereco3.PNG" width="500" height="400">
+            <img class="terecoSlides" src="media/tereco4.PNG" width="500" height="400">
+            <button class="buttonLeftTereco" onclick="plusDivs(-1)">&#10094</button>
+            <button class="buttonRightTereco" onclick="plusDivs(+1)">&#10095</button>
+            <p id="terecoParagraph"> Tereco is a project I created in a group of 4 people in my 4th semester as an studioproduction in "Interactive Media". <br> We worked with the GodotEngine, Blender and GitLab. <br>
+                You can play and download it on the HdM Stage Page.
+            </p>
+        </div>
+    -->
+
+        <script src="slides.js"></script>
+       <!-- <script src="slidesTereco.js"></script> -->
     </body>
 </html>

@@ -1,0 +1,33 @@
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+   
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-clip: padding-box;
+    margin-bottom: 100px;
+   
+    background-color: rgba(97, 121, 255, 0.281); 
+}
+
+#kontaktParagraph{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#process{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding-top: 50px;
+}
